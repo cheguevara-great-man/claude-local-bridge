@@ -1,0 +1,29 @@
+# Local runtime and build artifacts
+.venv/
+.state/
+.upstream/
+.build-wrapper/
+.tmp*/
+__pycache__/
+*.py[cod]
+*.exe
+*.dll
+*.spec
+*.o
+
+# Machine configuration, credentials, transcripts, and private diagnostics
+bin/bridge.conf
+settings.json
+.credentials.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.jsonl
+docs/ssh-diagnosis-*.md
+
+# Editor and OS artifacts
+.vscode/
+.DS_Store
+Thumbs.db

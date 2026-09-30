@@ -1,0 +1,11 @@
+# Copy to bridge.conf or run windows\configure-vscode.ps1.
+CLAUDE_VPS_HOST=user@your-vps.example.com
+CLAUDE_VPS_SSH_PORT=22
+CLAUDE_VPS_REMOTE_CLAUDE=claude
+CLAUDE_VPS_REMOTE_WORKDIR=~
+# Leave empty to use the VPS Claude Code's normal login/settings.
+# Or specify an absolute Linux path to a settings JSON on the VPS.
+CLAUDE_VPS_SETTINGS=
+CLAUDE_LOCAL_MCP_PORT=8765
+CLAUDE_VPS_MCP_PORT=18765
+CLAUDE_VPS_SSH_PATH=C:\Windows\System32\OpenSSH\ssh.exe
